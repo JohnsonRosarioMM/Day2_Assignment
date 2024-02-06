@@ -1,0 +1,34 @@
+                                Document object vs windows object
+
+Introduction:
+    In web development, there are two important objects: the document and the windows.
+
+Document object:
+
+    The document object represents the HTML document itself.
+It's like a snapshot of everything you see on a web page.
+
+    It helps you interact with the content of the web page. You canfind elements, change their content, style,
+or attribytesm and listen for events like clicks or keystrokes.
+
+    If you want to change the text of a paragraph on your page, 
+you'd use the document object to find that paragraph and update its content.
+
+Window object:
+
+    The window object represents the brower window or tab that contains the HTML document.
+It's like the frame around the web page.
+
+    It controls things related to the browers itself, not just the content page. You can resize the window,
+open new tabs, navigate to different URLs, and manage timming events.
+
+    If you want to open a new browser window when a user clicks a button, you'd use the window object to do that.
+
+Difference:
+
+    Dpcument: Deals with the content and structure of the HTML document intself.
+    Window: Deals with the browser environment, controlling things like the size of the window and navigation.
+
+Conclusion:
+
+    These are just basic levels of therotical difference. there are lots in code.
